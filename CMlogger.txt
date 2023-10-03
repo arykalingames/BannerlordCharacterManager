@@ -3,7 +3,7 @@ Logs of the LAST COMMAND USED (Load/Save only)
 saveCharacter function
 Start findHero
 End findHero
-Save of Патрик
+Save of Аригун
 > Start managePerksBonuses
 > End managePerksBonuses
 > Start saveName
@@ -22,12 +22,8 @@ Save of Патрик
 > End saveIsCompanion
 > Start saveFamily
 > End saveFamily
-> Start savePartner
-> End savePartner
-> Start saveClanLeadersRelations
-> End saveClanLeadersRelations
 > Start saveEncyclopedia
-> saveEncyclopedia found
+> saveEncyclopedia not found
 > End saveEncyclopedia
 > Start saveClanData
 > End saveClanData
@@ -47,56 +43,3 @@ Save of Патрик
 > End saveHeroSkills
 > Start saveHeroPerks
 > End saveHeroPerks
-> Start saveCraftingParts
-> End saveCraftingParts
-> Start saveSettlements
-> End saveSettlements
-> Start saveArmy
-Save 8 Имперский букелларий to Патрик's army
-Save 1 Налетчик-ветеран to Патрик's army
-Save 1 Старшая сестра меча to Патрик's army
-Save 1 Каракергитский старейшина to Патрик's army
-Save 1 Хузаитский торгут to Патрик's army
-Save 6 Вланд. рыцарь (знаменосец) to Патрик's army
-Save 2 Имперский элитный катафрактарий to Патрик's army
-Save 34 Стургийский элитный дружинник to Патрик's army
-Save 1 Стургийский конный рейдер to Патрик's army
-Save 40 Батт. элитный воин фиана to Патрик's army
-Save 1 Вландийский снайпер to Патрик's army
-Save 3 Имперский арбалетчик (серж.) to Патрик's army
-Save 10 Стургийский стрелок из лука (вет.) to Патрик's army
-Save 3 Элитный наемный арбалетчик to Патрик's army
-Save 1 Баттанский отшельник to Патрик's army
-Save 3 Баттанский присягнувший to Патрик's army
-Save 2 Имперский легионер to Патрик's army
-Save 5 Стург. тяжелый воин с топором to Патрик's army
-Save 3 Стургийский тяжелый копейщик to Патрик's army
-Save 1 Стургийский элитный ратник to Патрик's army
-Save 1 Стургийский дружинник to Патрик's army
-Save 2 Имперский катафрактарий to Патрик's army
-Save 23 Варяг (вет.) to Патрик's army
-Save 6 Хузаитский лучник to Патрик's army
-Save 6 Имперский лучник (вет.) to Патрик's army
-Save 9 Имперский конный воин to Патрик's army
-Save 10 Стургийский лучник to Патрик's army
-Save 3 Баттанский герой to Патрик's army
-Save 1 Воин баттанского фиана to Патрик's army
-Save 1 Хузаитский стрелок to Патрик's army
-Save 4 Вооруженный стургийский торговец to Патрик's army
-Save 9 Охранник стургийского каравана to Патрик's army
-Save 6 Охранник стургийского каравана (вет.) to Патрик's army
-Save 1 Хозяин стургийского каравана to Патрик's army
-Save 1 Mercenary Scout to Патрик's army
-Save 3 Охранник хузаитского каравана to Патрик's army
-Save 1 Mercenary Guard to Патрик's army
-Save 8 Имперский дворцовый страж to Патрик's army
-Save 1 Имперский тяжелый наездник to Патрик's army
-Save 9 Имперск. пехотинец (вет.) to Патрик's army
-Save 2 Высокородный баттанский воин to Патрик's army
-Save 1 Вооруж. имперский торговец to Патрик's army
-Save 40 Имперский обученный лучник to Патрик's army
-Save 1 Имперский арбалетчик to Патрик's army
-Save 24 Стургийский копейщик to Патрик's army
-Save 1 Стургийский ратник to Патрик's army
-Save 66 Варяг to Патрик's army
-> End saveArmy

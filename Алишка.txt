@@ -63,7 +63,7 @@ deathStatusActivated=false
 isDead=False
 
 # Companion data
-companion=true
+companion=false
 
 # Family
 # Not imported by default, set to true to activate it
@@ -71,7 +71,7 @@ companion=true
 # CLAN_OR_NOT above to true : will remove any tag as companion, mercernay, clan, etc... to force the character to be fully part of your family
 # CLAN_OR_NOT is set to TRUE by default
 # Note : Any hero in your family that you remove will remain in the family, just not as parent / sibling / children
-familyActivated=true
+familyActivated=false
 mother=Тарья/true
 father=Бальдим/true
 siblings=Патрик/true;Ножон/true;Фодор/true
@@ -81,16 +81,16 @@ children=
 # Write here the text you want for the character
 # NOTE : If you activate this, and there is a link to another page inside the character description, it will be removed
 # Not imported by default, set to true to activate it
-encyclopediaActivated=true
+encyclopediaActivated=false
 encyclopedia=Алишка – младшая сестра Патрик.
 
 # Clan data
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
-renownActivated=true
+renownActivated=false
 renown=882.819
 # Not imported by default, set to true to activate it
-influenceActivated=true
+influenceActivated=false
 influence=625.4429
 
 # Body data
@@ -108,7 +108,7 @@ bodyKey8=1348473024
 bodyWeight=0.5
 
 # Traits data
-traitsActivated=true
+traitsActivated=false
 generosity=0
 valor=0
 honor=0
@@ -133,18 +133,18 @@ Intelligence=4
 # Equipment data
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
-equipmentActivated=true
+equipmentActivated=false
 Head=Шлем с наносником и кольчугой
-Cape=Пластинчатое оплечье
-Body=Тяжелая чешуйчатая броня поверх кольчужного хауберка
+Cape=Пластинчатый оплечье
+Body=Тяжелый чешуйчатый броня поверх кольчужного хауберка
 Gloves=Наручи фиана
-Leg=Чешуйчатые сапоги
+Leg=Чешуйчатый сапоги
 Horse=Верховая лошадь внутренних земель
-HorseHarness=Кольчужная броня лошади
+HorseHarness=Кольчужный броня лошади
 Weapon0=Рыцарский меч с золотой гравировкой
 Weapon1=Тяжелый круглый щит
 Weapon2=Простой легкий арбалет
-Weapon3=Болты
+Weapon3=Болт
 Banner=none
 
 # Skills data
@@ -370,11 +370,11 @@ Banner=none
 Кузнец-воин.Кузн. дело=0
 Заостренная кромка.Кузн. дело=0
 Заостренный наконечник.Кузн. дело=0
-Лесной народ.Разведка=0
 Дневной путник.Разведка=0
 Следопыт.Разведка=0
 Ночные пробежки.Разведка=0
 Искатель воды.Разведка=0
+Лесной народ.Разведка=0
 Рожденный в пустыне.Разведка=0
 Бодрый шаг.Разведка=0
 Неотягощенный.Разведка=0
@@ -474,6 +474,7 @@ Banner=none
 Великий лидер.Лидерство=0
 Собиратель талантов.Лидерство=0
 Идеальный лидер.Лидерство=0
+Сладкоречивый.Торговля=0
 Верная оценка.Торговля=0
 Барыга.Торговля=0
 Хозяин каравана.Торговля=0
@@ -492,12 +493,10 @@ Banner=none
 Мастер торговли.Торговля=0
 Меч на обмен.Торговля=0
 Человек, добившийся всего сам.Торговля=0
-Сладкоречивый.Торговля=0
 Источник золота.Торговля=0
 Состоятельный человек.Торговля=0
 Перераспределение благ.Торговля=0
 У всего есть цена.Торговля=0
-Логист.Управление=0
 Диета воина.Управление=0
 Бережливый.Управление=0
 Семь ветеранов.Управление=0
@@ -507,6 +506,7 @@ Banner=none
 Гарантия обещания.Управление=0
 Эффективный борец.Управление=0
 Дающая рука.Управление=0
+Логист.Управление=0
 Передислокация.Управление=0
 Отряд помощи.Управление=0
 Гурман.Управление=0
