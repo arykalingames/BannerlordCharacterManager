@@ -3,7 +3,7 @@ Logs of the LAST COMMAND USED (Load/Save only)
 saveCharacter function
 Start findHero
 End findHero
-Save of Геральт
+Save of Аригун
 > Start managePerksBonuses
 > End managePerksBonuses
 > Start saveName
@@ -22,12 +22,8 @@ Save of Геральт
 > End saveIsCompanion
 > Start saveFamily
 > End saveFamily
-> Start savePartner
-> End savePartner
-> Start saveClanLeadersRelations
-> End saveClanLeadersRelations
 > Start saveEncyclopedia
-> saveEncyclopedia found
+> saveEncyclopedia not found
 > End saveEncyclopedia
 > Start saveClanData
 > End saveClanData
@@ -47,12 +43,3 @@ Save of Геральт
 > End saveHeroSkills
 > Start saveHeroPerks
 > End saveHeroPerks
-> Start saveCraftingParts
-> End saveCraftingParts
-> Start saveSettlements
-> End saveSettlements
-> Start saveArmy
-Save 2 Вландийский рыцарь to Геральт's army
-Save 5 Вландийский оруженосец to Геральт's army
-Save 5 Вландийский чемпион to Геральт's army
-> End saveArmy

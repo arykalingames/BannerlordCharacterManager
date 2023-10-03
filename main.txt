@@ -100,7 +100,7 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=true
-renown=882.819
+renown=898.819
 # Not imported by default, set to true to activate it
 influenceActivated=true
 influence=625.4429
