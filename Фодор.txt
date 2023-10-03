@@ -48,7 +48,7 @@ name=Фодор
 level=1
 exp=1
 gold=10000
-age=15.88227
+age=18.1
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -95,7 +95,7 @@ influence=625.4429
 
 # Body data
 gender=male
-bodyAge=15.88227
+bodyAge=18.1
 bodyBuild=0.5
 bodyKey1=1842839478085522
 bodyKey2=15790256070711298714
