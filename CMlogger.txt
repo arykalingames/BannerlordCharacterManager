@@ -3,7 +3,7 @@ Logs of the LAST COMMAND USED (Load/Save only)
 saveCharacter function
 Start findHero
 End findHero
-Save of Аригун
+Save of Рагна Ивовая Кора
 > Start managePerksBonuses
 > End managePerksBonuses
 > Start saveName
