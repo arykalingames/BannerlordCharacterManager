@@ -27,7 +27,10 @@ loadCharacter function
 > Start loadBody
 > End loadBody
 > Start loadFamily
-Family is not activated
+> End loadFamily
+> Start loadPartner
+Partner is not activated
+> Start loadClanLeadersRelations
 > Start loadEncyclopedia
 > End loadEncyclopedia
 > Start loadClanData
@@ -42,5 +45,9 @@ Family is not activated
 > End loadHeroPerks
 > Start loadCraftingParts
 > Ebd loadCraftingParts
+> Start loadSettlements
+> End loadSettlements
+> Start loadArmy
+> End loadArmy
 > Start switchCheatMode
 > End switchCheatMode
