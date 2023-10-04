@@ -3,7 +3,7 @@ Logs of the LAST COMMAND USED (Load/Save only)
 saveCharacter function
 Start findHero
 End findHero
-Save of Рагна Ивовая Кора
+Save of Геральт
 > Start managePerksBonuses
 > End managePerksBonuses
 > Start saveName
@@ -22,8 +22,12 @@ Save of Рагна Ивовая Кора
 > End saveIsCompanion
 > Start saveFamily
 > End saveFamily
+> Start savePartner
+> End savePartner
+> Start saveClanLeadersRelations
+> End saveClanLeadersRelations
 > Start saveEncyclopedia
-> saveEncyclopedia not found
+> saveEncyclopedia found
 > End saveEncyclopedia
 > Start saveClanData
 > End saveClanData
@@ -43,3 +47,12 @@ Save of Рагна Ивовая Кора
 > End saveHeroSkills
 > Start saveHeroPerks
 > End saveHeroPerks
+> Start saveCraftingParts
+> End saveCraftingParts
+> Start saveSettlements
+> End saveSettlements
+> Start saveArmy
+Save 2 Вландийский рыцарь to Геральт's army
+Save 5 Вландийский оруженосец to Геральт's army
+Save 5 Вландийский чемпион to Геральт's army
+> End saveArmy
