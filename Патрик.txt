@@ -71,7 +71,7 @@ companion=false
 # CLAN_OR_NOT above to true : will remove any tag as companion, mercernay, clan, etc... to force the character to be fully part of your family
 # CLAN_OR_NOT is set to TRUE by default
 # Note : Any hero in your family that you remove will remain in the family, just not as parent / sibling / children
-familyActivated=false
+familyActivated=true
 mother=Терта/true
 father=Бальдрим/true
 siblings=Алишка/true;Ножон/true;Фодор/true
@@ -79,7 +79,7 @@ children=
 
 # Partner data (Main character ONLY)
 # Not imported by default, set to true to activate it
-partnerActivated=false
+partnerActivated=true
 partnerName=Сильвинд
 partnerRelation=20
 
@@ -99,7 +99,7 @@ encyclopedia=
 # Clan data
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
-renownActivated=false
+renownActivated=true
 renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false

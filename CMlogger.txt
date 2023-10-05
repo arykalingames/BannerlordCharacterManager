@@ -1,58 +1,56 @@
 Logs of the LAST COMMAND USED (Load/Save only)
 
-saveCharacter function
-Start findHero
-End findHero
-Save of Патрик
-> Start managePerksBonuses
-> End managePerksBonuses
-> Start saveName
-> End saveName
-> Start saveLevel
-> End saveLevel
-> Start saveMoney
-> End saveMoney
-> Start saveAge
-> End saveAge
-> Start saveCulture
-> End saveCulture
-> Start saveDeath
-> End saveDeath
-> Start saveIsCompanion
-> End saveIsCompanion
-> Start saveFamily
-> End saveFamily
-> Start savePartner
-> End savePartner
-> Start saveClanLeadersRelations
-> End saveClanLeadersRelations
-> Start saveEncyclopedia
-> saveEncyclopedia found
-> End saveEncyclopedia
-> Start saveClanData
-> End saveClanData
-> Start saveBody
-> End saveBody
-> Start saveHeroTraits
-> End saveHeroTraits
-> Start saveAttributePoints
-> End saveAttributePoints
-> Start saveFocusPoints
-> End saveFocusPoints
-> Start saveHeroAttributes
-> End saveHeroAttributes
-> Start saveEquipment
-> End saveEquipment
-> Start saveHeroSkills
-> End saveHeroSkills
-> Start saveHeroPerks
-> End saveHeroPerks
-> Start saveCraftingParts
-> End saveCraftingParts
-> Start saveSettlements
-> End saveSettlements
-> Start saveArmy
-Save 20 Батт. элитный воин фиана to Патрик's army
-Save 4 Стургийский дружинник to Патрик's army
-Save 16 Стургийский элитный дружинник to Патрик's army
-> End saveArmy
+loadCharacter function
+> Start findHero
+> End findHero
+> Start gatherFileData
+> End gatherFileData with true
+> Start switchCheatMode
+> End switchCheatMode
+> Start loadName
+> End loadName
+> Start loadLevel
+> End loadLevel
+> Start loadMoney
+> End loadMoney
+> Start loadAge
+> End loadAge
+> Start loadCulture
+> End loadCulture
+> Start loadDeath
+> Start loadHeroTraits
+> End loadHeroTraits
+> Start loadAttributePoints
+> End loadAttributePoints
+> Start loadFocusPoints
+> End loadFocusPoints
+> Start loadBody
+> End loadBody
+> Start loadFamily
+> End loadFamily
+> Start loadPartner
+Partner is > Сильвинд
+Partner found
+Partner not in error code
+> End loadPartner
+> Start loadClanLeadersRelations
+> Start loadEncyclopedia
+> End loadEncyclopedia
+> Start loadClanData
+> End loadClanData
+> Start loadEquipment
+> End loadEquipment
+> Start loadHeroSkills
+> End loadHeroSkills
+> Start loadHeroAttributes
+> End loadHeroAttributes
+> Start loadHeroPerks
+> End loadHeroPerks
+> Start loadCraftingParts
+> Ebd loadCraftingParts
+> Start loadSettlements
+> End loadSettlements
+> Start loadArmy
+> End loadArmy
+> Start switchCheatMode
+> End switchCheatMode

@@ -133,7 +133,7 @@ Intelligence=2
 # Equipment data
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
-equipmentActivated=false
+equipmentActivated=true
 Head=Закрытый шлем поверх шнурованного койфа
 Cape=Тяжелый оплечье полководца
 Body=Меховой безрукавка с подкладом

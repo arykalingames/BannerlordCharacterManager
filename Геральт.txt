@@ -146,7 +146,7 @@ Intelligence=6
 # Equipment data
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
-equipmentActivated=false
+equipmentActivated=true
 Head=Шлем полководца поверх закрытой кольчуги
 Cape=Тяжелый оплечье полководца
 Body=Бригандина поверх кольчуги
