@@ -46,9 +46,9 @@
 # Basic data
 name=Рагна Ивовая Кора
 level=14
-exp=257551
+exp=259753
 gold=365
-age=33.09985
+age=33.12721
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -88,15 +88,15 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=false
-renown=882.819
+renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false
 influence=625.4429
 
 # Body data
 gender=female
-bodyAge=33.09985
-bodyBuild=0.4579
+bodyAge=33.12721
+bodyBuild=0.3959812
 bodyKey1=360661296091139
 bodyKey2=11869684841209614978
 bodyKey3=8726750693940104008
@@ -105,15 +105,15 @@ bodyKey5=328769670677562560
 bodyKey6=0
 bodyKey7=0
 bodyKey8=1899757634
-bodyWeight=0.2083
+bodyWeight=0.2396402
 
 # Traits data
 traitsActivated=false
 generosity=0
 valor=0
 honor=0
-mercy=1
-calculating=1
+mercy=0
+calculating=0
 
 # Available points
 attributePoints=0
@@ -134,17 +134,17 @@ Intelligence=6
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
 equipmentActivated=false
-Head=Шлем с защитой лица
-Cape=Тяжелый оплечье полководца
-Body=Пластинчатый броня катафрактария
-Gloves=Кольчужный рукавицы
-Leg=Кольчужный поножи на ремне
-Horse=Степной конь
-HorseHarness=Пластинчатый полуброня
-Weapon0=Одноручный бородовидный топор
-Weapon1=Тяжелый круглый щит
-Weapon2=Простой легкий арбалет
-Weapon3=Легкий болты
+Head=none
+Cape=none
+Body=Полукафтан из мешковины
+Gloves=Кожаный перчатки
+Leg=Обмотанный кожаный сапоги
+Horse=Верховая лошадь внутренних земель
+HorseHarness=none
+Weapon0=Железный рыцарский меч
+Weapon1=none
+Weapon2=none
+Weapon3=none
 Banner=none
 
 # Skills data
@@ -166,7 +166,7 @@ Banner=none
 МедицинаFocus=5
 Одноручное=107
 ОдноручноеFocus=3
-Древковое=22
+Древковое=23
 ДревковоеFocus=0
 Езда верхом=31
 Езда верхомFocus=0

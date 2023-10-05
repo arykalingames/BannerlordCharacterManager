@@ -46,9 +46,9 @@
 # Basic data
 name=Галон Тихоня
 level=17
-exp=474279
+exp=474933
 gold=3940
-age=31.33922
+age=31.36658
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -88,15 +88,15 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=false
-renown=882.819
+renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false
 influence=625.4429
 
 # Body data
 gender=male
-bodyAge=31.33922
-bodyBuild=0.2485
+bodyAge=31.36658
+bodyBuild=0.7734958
 bodyKey1=4129818287276038
 bodyKey2=6759951309566032716
 bodyKey3=2154823677019970362
@@ -105,14 +105,14 @@ bodyKey5=94575673876021933
 bodyKey6=0
 bodyKey7=0
 bodyKey8=1051213891
-bodyWeight=0.3164
+bodyWeight=0.37397
 
 # Traits data
 traitsActivated=false
-generosity=1
-valor=1
+generosity=0
+valor=0
 honor=0
-mercy=1
+mercy=0
 calculating=0
 
 # Available points
@@ -134,23 +134,23 @@ Intelligence=6
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
 equipmentActivated=false
-Head=Украшенный бронзовый шапка с оторочкой и нащечниками
-Cape=Бронзовый чешуйчатый оплечье
-Body=Грубый чешуйчатый кольчуга
-Gloves=Наручи с накладками
-Leg=Чешуйчатый сапоги
-Horse=Тьяльская лошадь
-HorseHarness=Кольчужный полуброня
-Weapon0=Топорик со скругленным лезвием из качественной стали
-Weapon1=Слом. Рубец
-Weapon2=Железный укрепленный большой щит горцев
-Weapon3=Мастер. Стремнина
+Head=none
+Cape=none
+Body=Тяжелый акетон
+Gloves=none
+Leg=Ботинки с ремешками
+Horse=Вьючная лошадь
+HorseHarness=none
+Weapon0=Железный рыцарский меч
+Weapon1=Каплевидный щит всадника
+Weapon2=none
+Weapon3=none
 Banner=none
 
 # Skills data
 Атлетичность=93
 АтлетичностьFocus=2
-Лук=7
+Лук=9
 ЛукFocus=0
 Обаяние=35
 ОбаяниеFocus=0

@@ -46,9 +46,9 @@
 # Basic data
 name=Алек Счастливец
 level=15
-exp=320487
+exp=326168
 gold=449
-age=26.5492
+age=26.57656
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -88,15 +88,15 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=false
-renown=882.819
+renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false
 influence=625.4429
 
 # Body data
 gender=male
-bodyAge=26.5492
-bodyBuild=0.2423
+bodyAge=26.57656
+bodyBuild=0.4218631
 bodyKey1=888412911441100
 bodyKey2=7538065195430488115
 bodyKey3=6654586535715156939
@@ -105,12 +105,12 @@ bodyKey5=117093672096739407
 bodyKey6=0
 bodyKey7=0
 bodyKey8=1061187716
-bodyWeight=0.1867
+bodyWeight=0.439665
 
 # Traits data
 traitsActivated=false
-generosity=1
-valor=1
+generosity=0
+valor=0
 honor=0
 mercy=0
 calculating=0
@@ -134,23 +134,23 @@ Intelligence=6
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
 equipmentActivated=false
-Head=Стальной шлем с наносником
-Cape=Шаль
-Body=Красный камзол поверх кольчужного хауберка
-Gloves=Кольчужный рукавицы
-Leg=Кольчужный поножи на ремне
-Horse=Нахазави
-HorseHarness=Кольчужный полуброня
-Weapon0=Двуручный меч (создано)
-Weapon1=Круглый щит
-Weapon2=Лошадник
-Weapon3=Качеств. Конина
+Head=none
+Cape=Капюшон
+Body=Тяжелый акетон
+Gloves=none
+Leg=Обмотанный кожаный сапоги
+Horse=Верховая лошадь внутренних земель
+HorseHarness=none
+Weapon0=Железный рыцарский меч
+Weapon1=Каплевидный щит всадника
+Weapon2=none
+Weapon3=none
 Banner=none
 
 # Skills data
-Атлетичность=86
+Атлетичность=87
 АтлетичностьFocus=2
-Лук=10
+Лук=12
 ЛукFocus=1
 Обаяние=23
 ОбаяниеFocus=0
@@ -164,11 +164,11 @@ Banner=none
 ЛидерствоFocus=2
 Медицина=21
 МедицинаFocus=0
-Одноручное=97
+Одноручное=99
 ОдноручноеFocus=3
-Древковое=111
+Древковое=112
 ДревковоеFocus=3
-Езда верхом=25
+Езда верхом=29
 Езда верхомFocus=1
 Мошенничество=32
 МошенничествоFocus=0

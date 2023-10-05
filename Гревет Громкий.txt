@@ -46,9 +46,9 @@
 # Basic data
 name=Гревет Громкий
 level=18
-exp=654694
+exp=662691
 gold=480
-age=29.67753
+age=29.70489
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -88,15 +88,15 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=false
-renown=882.819
+renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false
 influence=625.4429
 
 # Body data
 gender=male
-bodyAge=29.67753
-bodyBuild=0.3657
+bodyAge=29.70489
+bodyBuild=0.5301527
 bodyKey1=650965644489664
 bodyKey2=6233313856561015207
 bodyKey3=11715400098165959568
@@ -105,15 +105,15 @@ bodyKey5=117093672092380730
 bodyKey6=0
 bodyKey7=0
 bodyKey8=390594755
-bodyWeight=0.162
+bodyWeight=0.5952274
 
 # Traits data
 traitsActivated=false
-generosity=-1
-valor=1
+generosity=0
+valor=0
 honor=0
 mercy=0
-calculating=-1
+calculating=0
 
 # Available points
 attributePoints=0
@@ -134,18 +134,18 @@ Intelligence=2
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
 equipmentActivated=false
-Head=Пернатый шлем полководца
+Head=Пластинчатый шлем с венцом
 Cape=Тяжелый оплечье полководца
-Body=Тяжелый пластинчатый броня поверх хауберка
+Body=Чешуйчатый броня полководца
 Gloves=Чешуйчатый наручи полководца
 Leg=Чешуйчатый сапоги
 Horse=Скакун из Валанбю
-HorseHarness=Чешуйчатый полуброня катафрактария
-Weapon0=Тяжелый конь
-Weapon1=Конина
-Weapon2=Бронзовый укрепленный большой щит горцев
-Weapon3=Мастер. Смерть на поле
-Banner=Знамя Дракона
+HorseHarness=Укрепленный броня цепного плетения
+Weapon0=Железный рыцарский меч
+Weapon1=Ромфея
+Weapon2=Тяжелый круглый щит
+Weapon3=none
+Banner=Знамя сомкнутых копий
 
 # Skills data
 Атлетичность=136
@@ -166,9 +166,9 @@ Banner=Знамя Дракона
 МедицинаFocus=0
 Одноручное=158
 ОдноручноеFocus=4
-Древковое=145
+Древковое=146
 ДревковоеFocus=4
-Езда верхом=146
+Езда верхом=147
 Езда верхомFocus=4
 Мошенничество=2
 МошенничествоFocus=0

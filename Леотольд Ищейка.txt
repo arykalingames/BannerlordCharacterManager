@@ -46,9 +46,9 @@
 # Basic data
 name=Леотольд Ищейка
 level=20
-exp=888984
+exp=890547
 gold=3694
-age=43.6501
+age=43.67746
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -88,15 +88,15 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=false
-renown=882.819
+renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false
 influence=625.4429
 
 # Body data
 gender=male
-bodyAge=43.6501
-bodyBuild=0.3657
+bodyAge=43.67746
+bodyBuild=0.4271764
 bodyKey1=180355340444356
 bodyKey2=2921369123193936101
 bodyKey3=1971883624349668802
@@ -105,14 +105,14 @@ bodyKey5=175640540204936392
 bodyKey6=0
 bodyKey7=0
 bodyKey8=886603910
-bodyWeight=0.162
+bodyWeight=0.5199579
 
 # Traits data
 traitsActivated=false
 generosity=0
 valor=0
 honor=0
-mercy=1
+mercy=0
 calculating=0
 
 # Available points
@@ -134,18 +134,18 @@ Intelligence=2
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
 equipmentActivated=false
-Head=Ребристый шлем
-Cape=Тяжелый пластинчатый оплечье
-Body=Украшенный кольчуга легионера
-Gloves=Пластинчатый рукавицы
-Leg=Кольчужный поножи на ремне
-Horse=Тьяльская лошадь
-HorseHarness=Кольчужный броня лошади
-Weapon0=Мастер. Ланец
-Weapon1=Павеза
-Weapon2=Качественный легкий арбалет
-Weapon3=Тяжелый болты
-Banner=Знамя сокола Фариса
+Head=Пластинчатый шлем с венцом
+Cape=Тяжелый оплечье полководца
+Body=Чешуйчатый броня полководца
+Gloves=Чешуйчатый наручи полководца
+Leg=Чешуйчатый сапоги
+Horse=Скакун из Валанбю
+HorseHarness=Укрепленный броня цепного плетения
+Weapon0=Рыцарский меч с золотой гравировкой
+Weapon1=Железный круглый щит
+Weapon2=Простой копье простолюдина
+Weapon3=none
+Banner=none
 
 # Skills data
 Атлетичность=105
@@ -170,7 +170,7 @@ Banner=Знамя сокола Фариса
 ДревковоеFocus=3
 Езда верхом=106
 Езда верхомFocus=2
-Мошенничество=4
+Мошенничество=6
 МошенничествоFocus=0
 Разведка=150
 РазведкаFocus=5

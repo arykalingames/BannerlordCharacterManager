@@ -46,9 +46,9 @@
 # Basic data
 name=Фуренхард Кузнец
 level=21
-exp=1170305
+exp=1171544
 gold=300
-age=28.56476
+age=28.59212
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
@@ -88,15 +88,15 @@ encyclopedia=
 # Note : Renown must be HIGHER than your current save renown to be changed
 # Not imported by default, set to true to activate it
 renownActivated=false
-renown=882.819
+renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=false
 influence=625.4429
 
 # Body data
 gender=male
-bodyAge=28.56476
-bodyBuild=0.4583
+bodyAge=28.59212
+bodyBuild=0.491939
 bodyKey1=2480543342788622
 bodyKey2=3998466228425112226
 bodyKey3=5538714655861867317
@@ -105,27 +105,27 @@ bodyKey5=261215603261008758
 bodyKey6=0
 bodyKey7=0
 bodyKey8=1833189442
-bodyWeight=0.2731
+bodyWeight=0.5227491
 
 # Traits data
 traitsActivated=false
-generosity=1
+generosity=0
 valor=0
 honor=0
-mercy=1
-calculating=-1
+mercy=0
+calculating=0
 
 # Available points
 attributePoints=0
-focusPoints=1
+focusPoints=0
 
 # Attributes data
 #Adapts to Smithing and Ahtletics perks
-Vigor=7
+Vigor=8
 #Adapts to Smithing and Ahtletics perks
 Control=2
 #Adapts to Smithing and Ahtletics perks
-Endurance=7
+Endurance=8
 Cunning=2
 Social=2
 Intelligence=2
@@ -134,22 +134,22 @@ Intelligence=2
 # Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 # Not imported by default, set to true to activate it
 equipmentActivated=false
-Head=Шлем с наносником поверх кольчужного койфа
+Head=Закрытый шлем поверх шнурованного койфа
 Cape=Тяжелый оплечье полководца
-Body=Тяжелый чешуйчатый броня поверх кольчужного хауберка
-Gloves=Тяжелый кольчужный рукавицы
-Leg=Кольчужный поножи на ремне
-Horse=Нахазави
-HorseHarness=Пластинчатый полуброня
-Weapon0=Безвременный кончина
-Weapon1=Коняшка
-Weapon2=Sekka
-Weapon3=Качеств. Северный ланец
+Body=Меховой безрукавка с подкладом
+Gloves=Чешуйчатый наручи полководца
+Leg=Чешуйчатый сапоги
+Horse=Даршийский конь
+HorseHarness=none
+Weapon0=Железный рыцарский меч
+Weapon1=none
+Weapon2=none
+Weapon3=none
 Banner=none
 
 # Skills data
 Атлетичность=119
-АтлетичностьFocus=2
+АтлетичностьFocus=3
 Лук=29
 ЛукFocus=1
 Обаяние=5
@@ -168,7 +168,7 @@ Banner=none
 ОдноручноеFocus=3
 Древковое=116
 ДревковоеFocus=3
-Езда верхом=49
+Езда верхом=50
 Езда верхомFocus=2
 Мошенничество=14
 МошенничествоFocus=0
@@ -312,7 +312,7 @@ Banner=none
 Полная скорость.Езда верхом=1
 Стремительный скакун.Езда верхом=0
 Хорошая упряжь.Езда верхом=0
-Ветеринар.Езда верхом=0
+Ветеринар.Езда верхом=1
 Традиции кочевников.Езда верхом=0
 Большие мешки.Езда верхом=0
 Стрелец.Езда верхом=0

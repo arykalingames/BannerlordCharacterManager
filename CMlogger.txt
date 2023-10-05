@@ -1,53 +1,45 @@
 Logs of the LAST COMMAND USED (Load/Save only)
 
-loadCharacter function
-> Start findHero
-> End findHero
-> Start gatherFileData
-> End gatherFileData with true
-> Start switchCheatMode
-> End switchCheatMode
-> Start loadName
-> End loadName
-> Start loadLevel
-> End loadLevel
-> Start loadMoney
-> End loadMoney
-> Start loadAge
-> End loadAge
-> Start loadCulture
-> End loadCulture
-> Start loadDeath
-> Start loadHeroTraits
-> End loadHeroTraits
-> Start loadAttributePoints
-> End loadAttributePoints
-> Start loadFocusPoints
-> End loadFocusPoints
-> Start loadBody
-> End loadBody
-> Start loadFamily
-> End loadFamily
-> Start loadPartner
-Partner is not activated
-> Start loadClanLeadersRelations
-> Start loadEncyclopedia
-> End loadEncyclopedia
-> Start loadClanData
-> End loadClanData
-> Start loadEquipment
-> End loadEquipment
-> Start loadHeroSkills
-> End loadHeroSkills
-> Start loadHeroAttributes
-> End loadHeroAttributes
-> Start loadHeroPerks
-> End loadHeroPerks
-> Start loadCraftingParts
-> Ebd loadCraftingParts
-> Start loadSettlements
-> End loadSettlements
-> Start loadArmy
-> End loadArmy
-> Start switchCheatMode
-> End switchCheatMode
+saveCharacter function
+Start findHero
+End findHero
+Save of Фуренхард Кузнец
+> Start managePerksBonuses
+> End managePerksBonuses
+> Start saveName
+> End saveName
+> Start saveLevel
+> End saveLevel
+> Start saveMoney
+> End saveMoney
+> Start saveAge
+> End saveAge
+> Start saveCulture
+> End saveCulture
+> Start saveDeath
+> End saveDeath
+> Start saveIsCompanion
+> End saveIsCompanion
+> Start saveFamily
+> End saveFamily
+> Start saveEncyclopedia
+> saveEncyclopedia not found
+> End saveEncyclopedia
+> Start saveClanData
+> End saveClanData
+> Start saveBody
+> End saveBody
+> Start saveHeroTraits
+> End saveHeroTraits
+> Start saveAttributePoints
+> End saveAttributePoints
+> Start saveFocusPoints
+> End saveFocusPoints
+> Start saveHeroAttributes
+> End saveHeroAttributes
+> Start saveEquipment
+> End saveEquipment
+> Start saveHeroSkills
+> End saveHeroSkills
+> Start saveHeroPerks
+> End saveHeroPerks
