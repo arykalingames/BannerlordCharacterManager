@@ -1,56 +1,46 @@
 Logs of the LAST COMMAND USED (Load/Save only)
 
-loadCharacter function
-> Start findHero
-> End findHero
-> Start gatherFileData
-> End gatherFileData with true
-> Start switchCheatMode
-> End switchCheatMode
-> Start loadName
-> End loadName
-> Start loadLevel
-> End loadLevel
-> Start loadMoney
-> End loadMoney
-> Start loadAge
-> End loadAge
-> Start loadCulture
-> End loadCulture
-> Start loadDeath
-> Start loadHeroTraits
-> End loadHeroTraits
-> Start loadAttributePoints
-> End loadAttributePoints
-> Start loadFocusPoints
-> End loadFocusPoints
-> Start loadBody
-> End loadBody
-> Start loadFamily
-> End loadFamily
-> Start loadPartner
-Partner is > Сильвинд
-Partner found
-Partner not in error code
-> End loadPartner
-> Start loadClanLeadersRelations
-> Start loadEncyclopedia
-> End loadEncyclopedia
-> Start loadClanData
-> End loadClanData
-> Start loadEquipment
-> End loadEquipment
-> Start loadHeroSkills
-> End loadHeroSkills
-> Start loadHeroAttributes
-> End loadHeroAttributes
-> Start loadHeroPerks
-> End loadHeroPerks
-> Start loadCraftingParts
-> Ebd loadCraftingParts
-> Start loadSettlements
-> End loadSettlements
-> Start loadArmy
-> End loadArmy
-> Start switchCheatMode
-> End switchCheatMode
+[SaveCharacter] == START OF SAVE ==
+[SaveCharacter] Gathering Хальгард data...
+[SaveBasicData] Gathering basic data...
+[SaveCulture] Gathering culture...
+[SaveCulture] Culture done !
+[SaveBasicData] Basic data done !
+[SaveEncyclopedia] Gathering encyclopedia...
+[SaveEncyclopedia] Encyclopedia done !
+[SaveBody] Gathering Body data...
+[SaveBody] Body data done !
+[SaveClanData] Gathering Clan...
+[SaveClanData] Clan done !
+[SaveHeroTraits] Gathering Hero traits...
+[SaveHeroTraits] Hero traits done !
+[saveAttributePoints] Gathering Attribute points available...
+[saveAttributePoints] Attribute points available done !
+[saveFocusPoints] Gathering Focus points available...
+[saveFocusPoints] Focus points available done !
+[SaveHeroPerks] Gathering hero perks...
+[SaveHeroPerks] Hero perks done !
+[saveHeroAttributes] Gathering hero attributes...
+[setHeroAttributes] Calculating hero attributes...
+[setHeroAttributes] Calculation of hero attributes done !
+[saveHeroAttributes] Hero attributes done !
+[SaveSkills] Gathering hero skills...
+[SaveSkills] Hero skills done !
+[SavePartner] Gathering hero partner...
+[SavePartner] Hero partner done !
+[SaveClanLeaderRelation] Gathering hero clan leaders relations...
+[SavePartner] Hero clan leaders relations done !
+[SaveEquipment] Gathering equipment...
+[SaveEquipment] Equipment done !
+[SaveCraftingParts] Gathering crafting parts...
+[SaveEquipment] Crafting parts done !
+[SaveSettlements] Gathering settlements...
+[SaveSettlements] Settlements done !
+[SaveArmy] Gathering Army...
+[SaveArmy] Army done !
+[SaveArmy] Gathering Family...
+[SaveArmy] /!\ NOT YET IMPLEMENTED /!\
+[SaveArmy] Family done !
+[SaveHeroData] Saving of Хальгард
+Your character data have been saved inC:\Users\arykalin\Documents\Mount and Blade II Bannerlord\CharacterManager\Хальгард.txt
+[SaveCharacter] Хальгард properly saved !
