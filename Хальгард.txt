@@ -176,7 +176,7 @@ exp=3
 autoCalculateGlobalXp=False
 # NOTE : vv SET THIS TO FALSE IF YOU ARE CHANGING SKILL RANKS vv If false, the mod will set all the skill at the requested rank, with no additional rank progression for the skill.
 useRealSkillXp=True
-skill.Одноручное=0
+skill.Одноручное=1000
 skill.focus.Одноручное=0
 skill.xp.Одноручное=0
 skill.Двуручное=0
@@ -233,7 +233,7 @@ skill.xp.Инж. дело=0
 
 ######### Perks data
 # NOTE : To activate a perk, set to true instead of false
-perk.Одноручное.Обмотанные рукояти=False
+perk.Одноручное.Обмотанные рукояти=True
 perk.Одноручное.Мастер щита=False
 perk.Одноручное.Исполинская сила=False
 perk.Одноручное.Резкий удар=False
