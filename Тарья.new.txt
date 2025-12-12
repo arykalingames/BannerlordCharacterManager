@@ -1,0 +1,583 @@
+# Character Manager by Prozengan
+
+# Each data on a row after a # will NOT be loaded. You can comment anything you want.
+# Some data like influence and renown are not activated by default.
+# You can activate it by switching the value xxxActivated to true.
+#   - Death status
+#   - Traits
+#   - Influence
+#   - Renown
+#   - Partner
+#   - Clan leader relation
+#   - Equipment
+#   - Crafting parts
+#   - Settlements
+#   - Army
+
+# IMPORTANT NOTE : IF YOUR GAME IS NOT IN ENGLISH, SOME BUGS CAN HAPPEN
+
+# Available data changes
+#  - Name
+#  - Level
+#  - Money
+#  - Age
+#  - Culture
+#  - Death status
+#  - Family (off by default) (Parents / Siblings / Child)
+#  - Partner and partner relation (off by default) (Main character ONLY)
+#  - Clan leaders relation (off by default) (Main character ONLY)
+#  - Encyclopedia text (off by default)
+#  - Clan data (off by default)
+#  - Body data
+#  - Traits (off by default)
+#  - Focus and attributes points available
+#  - Attributes
+#  - Equipment (off by default)
+#  - Skills
+#  - Perks
+#  - Crafting parts (off by default) (Main character ONLY)
+#  - Settlements (off by default) (Main character ONLY)
+#  - Army (off by default) (Main character ONLY)
+
+# ======================================================================
+# ======================================================================
+# ======================================================================
+
+# Basic data
+name=Тарья
+gold=0
+age=50
+# Modded culture should work. If a culture is unknown, nothing will be changed
+# Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
+# NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
+culture=Стургия
+# This culture is the one which (among other things) defines the loyalty of the cities
+# Only available if the character is part of a clan, otherwise "NO CLAN" will be written
+clanCulture=Стургия
+# Not imported by default, set to true to activate it
+# NOTE : It will take more than 10 days for the character to appear again.
+# NOTE : It will temporarly make the character a prisoner of your party and release him/her immediatly. No relation penalty.
+deathStatusActivated=False
+isDead=True
+
+# Companion data
+isCompanion=False
+
+# Family
+# Not imported by default, set to true to activate it
+# Template : name/CLAN_OR_NOT;name/CLAN_OR_NOT;...
+# CLAN_OR_NOT above to true : will remove any tag as companion, mercernay, clan, etc... to force the character to be fully part of your family
+# CLAN_OR_NOT is set to TRUE by default
+# Note : Any hero in your family that you remove will remain in the family, just not as parent / sibling / children
+familyActivated=False
+mother=
+father=
+siblings=
+children=Патрик/true;Ножон/true;Алишка/true;Фодор/true
+
+# Encyclopedia text
+# Write here the text you want for the character
+# NOTE : If you activate this, and there is a link to another page inside the character description, it will be removed
+# Not imported by default, set to true to activate it
+encyclopediaActivated=False
+encyclopedia=Тарья была матерью Патрик. Ее убили налетчики, напавшие на гостиницу, в которой остановилась семья.
+
+# Clan data
+# Note : Renown must be HIGHER than your current save renown to be changed
+# Not imported by default, set to true to activate it
+renownActivated=False
+renown=882.819
+# Not imported by default, set to true to activate it
+influenceActivated=False
+influence=625.4429
+
+# Body data
+gender=female
+bodyAge=50
+bodyBuild=0.2
+bodyKey1=356301905862673
+bodyKey2=15934370077670029434
+bodyKey3=12869509274286009020
+bodyKey4=12289300312757261478
+bodyKey5=9745622
+bodyKey6=0
+bodyKey7=0
+bodyKey8=1079525507
+bodyWeight=0.3
+
+# Traits data
+traitsActivated=False
+generosity=0
+valor=0
+honor=0
+mercy=0
+calculating=0
+
+# Available points
+attributePointsAvailable=11
+focusPointsAvailable=15
+
+# Attributes data
+#Adapts to Smithing and Ahtletics perks
+Vigor=1
+#Adapts to Smithing and Ahtletics perks
+Control=1
+#Adapts to Smithing and Ahtletics perks
+Endurance=1
+Cunning=1
+Social=1
+Intelligence=1
+
+# Equipment data
+# Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
+# Not imported by default, set to true to activate it
+equipmentActivated=True
+Head=Роскошный головной шарф
+Cape=none
+Body=Шнурованный одежда
+Gloves=none
+Leg=Мокасин
+Horse=none
+HorseHarness=none
+Weapon0=none
+Weapon1=none
+Weapon2=none
+Weapon3=none
+Banner=none
+
+######### Skills data
+# NOTE : Hero level and raw XP
+level=11
+exp=114601
+autoCalculateGlobalXp=False
+useRealSkillXp=True
+skill.Атлетичность=0
+skill.focus.Атлетичность=0
+skill.xp.Атлетичность=0
+skill.Лук=0
+skill.focus.Лук=0
+skill.xp.Лук=0
+skill.Обаяние=60
+skill.focus.Обаяние=0
+skill.xp.Обаяние=0
+skill.Кузн. дело=2
+skill.focus.Кузн. дело=0
+skill.xp.Кузн. дело=0
+skill.Арбалет=0
+skill.focus.Арбалет=0
+skill.xp.Арбалет=0
+skill.Инж. дело=0
+skill.focus.Инж. дело=0
+skill.xp.Инж. дело=0
+skill.Лидерство=0
+skill.focus.Лидерство=0
+skill.xp.Лидерство=0
+skill.Медицина=2
+skill.focus.Медицина=0
+skill.xp.Медицина=0
+skill.Одноручное=0
+skill.focus.Одноручное=0
+skill.xp.Одноручное=0
+skill.Полэкс=0
+skill.focus.Полэкс=0
+skill.xp.Полэкс=0
+skill.Езда верхом=100
+skill.focus.Езда верхом=0
+skill.xp.Езда верхом=0
+skill.Мошенничество=0
+skill.focus.Мошенничество=0
+skill.xp.Мошенничество=0
+skill.Разведка=0
+skill.focus.Разведка=0
+skill.xp.Разведка=0
+skill.Управление=82
+skill.focus.Управление=0
+skill.xp.Управление=0
+skill.Тактика=0
+skill.focus.Тактика=0
+skill.xp.Тактика=0
+skill.Метательное=0
+skill.focus.Метательное=0
+skill.xp.Метательное=0
+skill.Торговля=62
+skill.focus.Торговля=0
+skill.xp.Торговля=0
+skill.Двуручное=0
+skill.focus.Двуручное=0
+skill.xp.Двуручное=0
+
+######### Perks data
+perk.Одноручное.Дуэлянт=False
+perk.Одноручное.Обмотанные рукояти=False
+perk.Одноручное.Мастер щита=False
+perk.Одноручное.Исполинская сила=False
+perk.Одноручное.Резкий удар=False
+perk.Одноручное.Кавалерия=False
+perk.Одноручное.Щитоносец=False
+perk.Одноручное.Инструктор=False
+perk.Одноручное.Стена щитов=False
+perk.Одноручное.Ловец стрел=False
+perk.Одноручное.Военные традиции=False
+perk.Одноручное.Контакт с противником=False
+perk.Одноручное.Блокада=False
+perk.Одноручное.Пример для подражания=False
+perk.Одноручное.Крепкий щит=False
+perk.Одноручное.Быстрые ноги=False
+perk.Одноручное.Смертоносный замысел=False
+perk.Одноручное.Непоколебимая оборона=False
+perk.Одноручное.Престиж=False
+perk.Одноручное.Путь меча=False
+perk.Одноручное.Прореха в броне=False
+perk.Двуручное.Сильная хватка=False
+perk.Двуручное.Дровосек=False
+perk.Двуручное.На грани=False
+perk.Двуручное.Крушитель черепов=False
+perk.Двуручное.Демонстрация силы=False
+perk.Двуручное.Крещение кровью=False
+perk.Двуручное.Убийца чудовищ=False
+perk.Двуручное.Щитолом=False
+perk.Двуручное.Уверенность=False
+perk.Двуручное.Берсерк=False
+perk.Двуручное.Отбивание снарядов=False
+perk.Двуручное.Ужас=False
+perk.Двуручное.Надежда=False
+perk.Двуручное.Безрассудная атака=False
+perk.Двуручное.Толстые шкуры=False
+perk.Двуручное.Мастер клинка=False
+perk.Двуручное.Вандал=False
+perk.Двуручное.Путь большого топора=False
+perk.Полэкс.Пикинер=False
+perk.Полэкс.Кавалерия=False
+perk.Полэкс.Укрепленный обручем=False
+perk.Полэкс.Устрашение=False
+perk.Полэкс.Резкий взмах=False
+perk.Полэкс.Чистый выпад=False
+perk.Полэкс.Крепкие икры=False
+perk.Полэкс.Крепкий удар=False
+perk.Полэкс.Убийца скакунов=False
+perk.Полэкс.Ланцер=False
+perk.Полэкс.Шампур=False
+perk.Полэкс.Стражники=False
+perk.Полэкс.Знаменосец=False
+perk.Полэкс.Фаланга=False
+perk.Полэкс.Суровый фронт=False
+perk.Полэкс.Учения=False
+perk.Полэкс.Твердая поступь=False
+perk.Полэкс.Непреодолимая сила=False
+perk.Полэкс.Противовес=False
+perk.Полэкс.Острый наконечник=False
+perk.Полэкс.Путь копья=False
+perk.Лук.Управление луком=False
+perk.Лук.Голова-мишень=False
+perk.Лук.Консервный нож=False
+perk.Лук.Проворство разведчика=False
+perk.Лук.Частый огонь=False
+perk.Лук.Быстрая корректировка=False
+perk.Лук.Честная компания=False
+perk.Лук.Верховой лучник=False
+perk.Лук.Инструктор=False
+perk.Лук.Мощные луки=False
+perk.Лук.Дисциплина=False
+perk.Лук.Клан охотников=False
+perk.Лук.Мастер схватки=False
+perk.Лук.Зоркое око=False
+perk.Лук.В яблочко=False
+perk.Лук.Прославленный лучник=False
+perk.Лук.Повелитель лошадей=False
+perk.Лук.Глубокий колчан=False
+perk.Лук.Скорострел=False
+perk.Лук.Точка натяжения тетивы=False
+perk.Лук.Стрельба без промаха=False
+perk.Арбалет.Пробойник=False
+perk.Арбалет.Снайперы=False
+perk.Арбалет.Гроза всадников=False
+perk.Арбалет.Быстрее ветра=False
+perk.Арбалет.Проворство ишака=False
+perk.Арбалет.Шериф=False
+perk.Арбалет.Предводитель крестьян=False
+perk.Арбалет.Прославленные стрелки=False
+perk.Арбалет.Мастер по изготовлению луков и стрел=False
+perk.Арбалет.Прокол=False
+perk.Арбалет.Свобода действий=False
+perk.Арбалет.Быстрые руки=False
+perk.Арбалет.Встречный огонь=False
+perk.Арбалет.Конный арбалетчик=False
+perk.Арбалет.Стабильный рост=False
+perk.Арбалет.Дальние выстрелы=False
+perk.Арбалет.Ударные болты=False
+perk.Арбалет.Павеза=False
+perk.Арбалет.Ужас=False
+perk.Арбалет.Отборные стрелки=False
+perk.Арбалет.Тугая тетива=False
+perk.Метательное.Скорострел=False
+perk.Метательное.Щитолом=False
+perk.Метательное.Охотник=False
+perk.Метательное.Изворотливый боец=False
+perk.Метательное.Верховой застрельщик=False
+perk.Метательное.Идеальная техника=False
+perk.Метательное.Метание на бегу=False
+perk.Метательное.Сбивание=False
+perk.Метательное.Хорошая подготовка=False
+perk.Метательное.Застрельщик=False
+perk.Метательное.Сфера=False
+perk.Метательное.Последнее попадание=False
+perk.Метательное.Охотник за головами=False
+perk.Метательное.Соревнования по метанию=False
+perk.Метательное.Переметные сумы=False
+perk.Метательное.Щепки летят=False
+perk.Метательное.Запасливый=False
+perk.Метательное.Большая досягаемость=False
+perk.Метательное.Уязвимое место=False
+perk.Метательное.Пронзающий удар=False
+perk.Метательное.Непреодолимая сила=False
+perk.Езда верхом.Полная скорость=False
+perk.Езда верхом.Стремительный скакун=False
+perk.Езда верхом.Хорошая упряжь=False
+perk.Езда верхом.Ветеринар=False
+perk.Езда верхом.Традиции кочевников=False
+perk.Езда верхом.Большие мешки=False
+perk.Езда верхом.Стрелец=False
+perk.Езда верхом.Стремительный ветер=False
+perk.Езда верхом.Подкрепление=False
+perk.Езда верхом.Конный воин=False
+perk.Езда верхом.Конный лучник=False
+perk.Езда верхом.Пастух=False
+perk.Езда верхом.Разводчик=False
+perk.Езда верхом.Грозная атака=False
+perk.Езда верхом.Противное жужжание=False
+perk.Езда верхом.Конные дозорные отряды=False
+perk.Езда верхом.Кавалерийская тактика=False
+perk.Езда верхом.Бесстрашный скакун=False
+perk.Езда верхом.Крепкий скакун=False
+perk.Езда верхом.Путь седла=False
+perk.Атлетичность.Выносливость=False
+perk.Атлетичность.Утренняя зарядка=False
+perk.Атлетичность.Хорошее сложение=False
+perk.Атлетичность.Ярость=False
+perk.Атлетичность.Подогнанная броня=False
+perk.Атлетичность.Внушительная комплекция=False
+perk.Атлетичность.Рывок=False
+perk.Атлетичность.Могущественная персона=False
+perk.Атлетичность.Сокрушительный удар=False
+perk.Атлетичность.Укрепленный обручем=False
+perk.Атлетичность.Лечение на ходу=False
+perk.Атлетичность.День отдыха=False
+perk.Атлетичность.Прочность=False
+perk.Атлетичность.Энергичный=False
+perk.Атлетичность.Стабильный рост=False
+perk.Атлетичность.Сильный=False
+perk.Атлетичность.Сильные ноги=False
+perk.Атлетичность.Сильные руки=False
+perk.Атлетичность.Спартанское воспитание=False
+perk.Атлетичность.Игнорирование боли=False
+perk.Атлетичность.Мощный удар=False
+perk.дело.Легендарный кузнец.Кузн=False
+perk.дело.Мастер обработки железа.Кузн=False
+perk.дело.Мастер-угольщик.Кузн=False
+perk.дело.Стальных дел мастер.Кузн=False
+perk.дело.Стальных дел мастер 2.Кузн=False
+perk.дело.Стальных дел мастер 3.Кузн=False
+perk.дело.Любознательный плавильщик.Кузн=False
+perk.дело.Любознательный кузнец.Кузн=False
+perk.дело.Мастеровитый металлург.Кузн=False
+perk.дело.Мастеровитый плавильщик.Кузн=False
+perk.дело.Мастеровитый кузнец.Кузн=False
+perk.дело.Мастер-кузнец.Кузн=False
+perk.дело.Опытный кузнец.Кузн=False
+perk.дело.Умелый кузнец.Кузн=False
+perk.дело.Энергичный кузнец.Кузн=False
+perk.дело.Внимательный кузнец.Кузн=False
+perk.дело.Выносливый кузнец.Кузн=False
+perk.дело.Кузнец-воин.Кузн=False
+perk.дело.Заостренная кромка.Кузн=False
+perk.дело.Заостренный наконечник.Кузн=False
+perk.Разведка.Дневной путник=False
+perk.Разведка.Следопыт=False
+perk.Разведка.Ночные пробежки=False
+perk.Разведка.Искатель воды=False
+perk.Разведка.Лесной народ=False
+perk.Разведка.Рожденный в пустыне=False
+perk.Разведка.Бодрый шаг=False
+perk.Разведка.Неотягощенный=False
+perk.Разведка.Ищейка=False
+perk.Разведка.Рейнджер=False
+perk.Разведка.Верховые разведчики=False
+perk.Разведка.Дозорные=False
+perk.Разведка.Фуражиры=False
+perk.Разведка.Укротитель зверей=False
+perk.Разведка.Сеть деревень=False
+perk.Разведка.Сеть осведомителей=False
+perk.Разведка.Выигрышная позиция=False
+perk.Разведка.Зоркий глаз=False
+perk.Разведка.Авангард=False
+perk.Разведка.Арьергард=False
+perk.Разведка.Сверхъестественные знания=False
+perk.Тактика.Плотное построение=False
+perk.Тактика.Свободные построения=False
+perk.Тактика.Длительная схватка=False
+perk.Тактика.Решающая битва=False
+perk.Тактика.Тактика маленьких отрядов=False
+perk.Тактика.Предводитель орды=False
+perk.Тактика.Законоборец=False
+perk.Тактика.Усиленная подготовка=False
+perk.Тактика.Быстрая перегруппировка=False
+perk.Тактика.Импровизатор=False
+perk.Тактика.В пути=False
+perk.Тактика.К оружию!=False
+perk.Тактика.Вырви их из стен=False
+perk.Тактика.Заставьте их заплатить!=False
+perk.Тактика.Элитный резерв=False
+perk.Тактика.Окружение=False
+perk.Тактика.Маневры перед битвой=False
+perk.Тактика.Осажденный=False
+perk.Тактика.Контрнаступление=False
+perk.Тактика.Вооруженная свита=False
+perk.Тактика.Тактическое мастерство=False
+perk.Мошенничество.Глубокие карманы=False
+perk.Мошенничество.Покой нам только снится=False
+perk.Мошенничество.Красноречие=False
+perk.Мошенничество.Двуликий=False
+perk.Мошенничество.В лучшем свете=False
+perk.Мошенничество.Ноу-хау=False
+perk.Мошенничество.Обещания=False
+perk.Мошенничество.Охотник=False
+perk.Мошенничество.Лицо со шрамом=False
+perk.Мошенничество.Невинный обман=False
+perk.Мошенничество.Связи с контрабандистами=False
+perk.Мошенничество.Соучастники=False
+perk.Мошенничество.Член семьи=False
+perk.Мошенничество.Соль земли=False
+perk.Мошенничество.Мясник=False
+perk.Мошенничество.Посредник=False
+perk.Мошенничество.Торговец оружием=False
+perk.Мошенничество.Грязные приемы=False
+perk.Мошенничество.Разбивай и руби=False
+perk.Мошенничество.Шустрые ноги=False
+perk.Мошенничество.Разбойник экстра-класса=False
+perk.Обаяние.Товарищество=False
+perk.Обаяние.Мужество=False
+perk.Обаяние.Самовыдвиженец=False
+perk.Обаяние.Красноречие=False
+perk.Обаяние.Полководец=False
+perk.Обаяние.Несмертельные обиды=False
+perk.Обаяние.Весомые услуги=False
+perk.Обаяние.Флирт=False
+perk.Обаяние.Вежливость юнца=False
+perk.Обаяние.Смутьян=False
+perk.Обаяние.Гибкая мораль=False
+perk.Обаяние.Во благо народа=False
+perk.Обаяние.Хитрый переговорщик=False
+perk.Обаяние.Добродушие=False
+perk.Обаяние.Дань=False
+perk.Обаяние.Харизматичный лидер=False
+perk.Обаяние.Прирожденный лидер=False
+perk.Обаяние.Оратор=False
+perk.Обаяние.Парад=False
+perk.Обаяние.Бесконечное обаяние=False
+perk.Лидерство.Мы клянемся нашими мечами=False
+perk.Лидерство.Ветеранские байки=False
+perk.Лидерство.Блаженны кроткие=False
+perk.Лидерство.Ярый агрессор=False
+perk.Лидерство.Крепкий защитник=False
+perk.Лидерство.Власть=False
+perk.Лидерство.Героический лидер=False
+perk.Лидерство.Честь и верность=False
+perk.Лидерство.Харизма=False
+perk.Лидерство.Знаменитый командир=False
+perk.Лидерство.Вождь народа=False
+perk.Лидерство.Уважение ветеранов=False
+perk.Лидерство.Гражданское ополчение=False
+perk.Лидерство.Вдохновляющий лидер=False
+perk.Лидерство.Возвышающий дух=False
+perk.Лидерство.Серьезное влияние=False
+perk.Лидерство.Пример для подражания=False
+perk.Лидерство.Почитаемый командир=False
+perk.Лидерство.Великий лидер=False
+perk.Лидерство.Собиратель талантов=False
+perk.Лидерство.Идеальный лидер=False
+perk.Торговля.Сладкоречивый=False
+perk.Торговля.Верная оценка=False
+perk.Торговля.Барыга=False
+perk.Торговля.Хозяин каравана=False
+perk.Торговля.Рыночный торговец=False
+perk.Торговля.Сплетни путешественников=False
+perk.Торговля.Местный рынок=False
+perk.Торговля.Распределение товаров=False
+perk.Торговля.Пошлина за въезд=False
+perk.Торговля.Сообщество ремесленников=False
+perk.Торговля.Великий делец=False
+perk.Торговля.Связи с наемниками=False
+perk.Торговля.Торговля информацией=False
+perk.Торговля.Страховка=False
+perk.Торговля.Ускоренное развитие=False
+perk.Торговля.Амбарщик-счетовод=False
+perk.Торговля.Мастер торговли=False
+perk.Торговля.Меч на обмен=False
+perk.Торговля.Человек, добившийся всего сам=False
+perk.Торговля.Источник золота=False
+perk.Торговля.Состоятельный человек=False
+perk.Торговля.Перераспределение благ=False
+perk.Торговля.У всего есть цена=False
+perk.Управление.Диета воина=False
+perk.Управление.Бережливый=False
+perk.Управление.Семь ветеранов=False
+perk.Управление.Строевой сержант=False
+perk.Управление.Долгая работа=False
+perk.Управление.Крепость духа=False
+perk.Управление.Гарантия обещания=False
+perk.Управление.Эффективный борец=False
+perk.Управление.Дающая рука=False
+perk.Управление.Логист=False
+perk.Управление.Передислокация=False
+perk.Управление.Отряд помощи=False
+perk.Управление.Гурман=False
+perk.Управление.Разумные запасы=False
+perk.Управление.Принудительный труд=False
+perk.Управление.Подрядчики=False
+perk.Управление.Мулы Ареника=False
+perk.Управление.Лошади Ареника=False
+perk.Управление.Мастер планирования=False
+perk.Управление.Мастер военного дела=False
+perk.Управление.Цена верности=False
+perk.Медицина.Клятва лекаря=False
+perk.Медицина.Самолечение=False
+perk.Медицина.Профилактические меры=False
+perk.Медицина.Медицинская палатка=False
+perk.Медицина.Лечение на ходу=False
+perk.Медицина.На санях=False
+perk.Медицина.Лучшее лекарство=False
+perk.Медицина.Хорошее жилье=False
+perk.Медицина.Военный врач=False
+perk.Медицина.Ветеринар=False
+perk.Медицина.Чистые улицы=False
+perk.Медицина.Деревенский целитель=False
+perk.Медицина.Идеальное здоровье=False
+perk.Медицина.Забота о здоровье=False
+perk.Медицина.Народный врач=False
+perk.Медицина.Чистота и порядок=False
+perk.Медицина.Обман смерти=False
+perk.Медицина.Настойка мужества=False
+perk.Медицина.Руки помощи=False
+perk.Медицина.Боевая закалка=False
+perk.Медицина.Министр здравоохранения=False
+perk.дело.Леса.Инж=False
+perk.дело.Торсионные орудия.Инж=False
+perk.дело.Осадное дело.Инж=False
+perk.дело.Строитель темниц.Инж=False
+perk.дело.Плотники.Инж=False
+perk.дело.Военное планирование.Инж=False
+perk.дело.Стенолом.Инж=False
+perk.дело.Гроза крепостей.Инж=False
+perk.дело.Снабженец.Инж=False
+perk.дело.Распорядитель.Инж=False
+perk.дело.Каменотесы.Инж=False
+perk.дело.Осадный инженер.Инж=False
+perk.дело.Строительство лагеря.Инж=False
+perk.дело.Укрепления.Инж=False
+perk.дело.Гильдии инженеров.Инж=False
+perk.дело.Ученичество.Инж=False
+perk.дело.Металлургия.Инж=False
+perk.дело.Улучшенные инструменты.Инж=False
+perk.дело.Часовое дело.Инж=False
+perk.дело.Законы о строительстве.Инж=False
+perk.дело.Тонкая работа.Инж=False
