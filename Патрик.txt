@@ -50,8 +50,8 @@ isDead=False
 # NOTE : Not imported by default, set to true to activate it
 partnerActivated=False
 # NOTE : If the character has no partner, set to NO_PARTNER
-partnerName=NO_PARTNER
-partnerRelation=0
+partnerName=Сильвинд
+partnerRelation=100
 ######### Clan leader relations
 # Currently alive clan leaders relationship (Main character ONLY)
 # NOTE : Not imported by default, set to true to activate it
@@ -116,8 +116,8 @@ mercyXp=0
 valorXp=0
 
 ######### Available points
-attributePointsAvailable=0
-focusPointsAvailable=1
+attributePointsAvailable=2
+focusPointsAvailable=2
 
 ######### Attributes data
 # NOTE : Those values are the base values of the attributes. If you have a perk which increase by 1 one of the stat, it's normal that the value here is 1 less.
