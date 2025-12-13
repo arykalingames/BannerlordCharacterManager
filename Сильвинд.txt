@@ -48,7 +48,7 @@ isDead=False
 
 ######### Companion data
 # NOTE : Set to true to make a wanderer a companion. Won't work on nobles.
-isCompanion=False
+isCompanion=True
 
 ######### Family
 # /!\ NOT YET SUPPORTED /!\
