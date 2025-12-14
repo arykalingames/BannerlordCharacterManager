@@ -61,7 +61,7 @@ deathStatusActivated=False
 isDead=False
 
 # Companion data
-isCompanion=False
+isCompanion=True
 
 # Family
 
