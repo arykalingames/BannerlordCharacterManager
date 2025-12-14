@@ -36,10 +36,10 @@ age=29.92078
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
 # NOTE : Changing culture while you are naked (no armor/weapon/horse) will give you a set of said faction, because the game is drunk
-culture=Стургия
+culture=Вландия
 # # This culture is the one which (among other things) defines the loyalty of the cities
 # Only available if the character is part of a clan, otherwise "NO CLAN" will be written
-clanCulture=Стургия
+clanCulture=Вландия
 # NOTE : It will take more than 10 days for the character to appear again.
 # NOTE : It will temporarly make the character a prisoner of your party and release him/her immediatly. No relation penalty.
 # Not imported by default, set to true to activate it
