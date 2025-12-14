@@ -150,10 +150,10 @@ Banner=none
 
 ######### Settlements data (Main character ONLY)
 # NOTE : Not imported by default, set to true to activate it
-settlementsActived=False
+settlementsActived=True
 # NOTE : Each settlement in this list will be given to the player. Write the settlement name as you see them on the world map. Use ; to separated each settlement name.
 # NOTE : Only cities and castle work, as villages are connected to them.
-settlements=
+settlements=Жакулан;Замок Хонгард
 
 ######### Army data (Main character ONLY)
 # /!\ KNOWN BUG, WON'T FIX /!\ : If you load from the party screen, the army loading WON'T work. Load from the encyclopedia screen with N directly.
