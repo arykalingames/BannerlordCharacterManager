@@ -1,7 +1,7 @@
 Logs of the LAST COMMAND USED (Load/Save only)
 
 [SaveCharacter] == START OF SAVE ==
-[SaveCharacter] Gathering Рустика data...
+[SaveCharacter] Gathering Патрик data...
 [SaveBasicData] Gathering basic data...
 [SaveCulture] Gathering culture...
 [SaveCulture] Culture done !
@@ -26,6 +26,10 @@ Logs of the LAST COMMAND USED (Load/Save only)
 [saveHeroAttributes] Hero attributes done !
 [SaveSkills] Gathering hero skills...
 [SaveSkills] Hero skills done !
+[SavePartner] Gathering hero partner...
+[SavePartner] Hero partner done !
+[SaveClanLeaderRelation] Gathering hero clan leaders relations...
+[SavePartner] Hero clan leaders relations done !
 [SaveEquipment] Gathering equipment...
 [SaveEquipment] Equipment done !
 [SaveCraftingParts] Gathering crafting parts...
@@ -37,10 +41,14 @@ Save 7 caravan_guard_vlandia to Патрик's army
 Save 1 western_mercenary_t5 to Патрик's army
 Save 4 western_crossbow_t4 to Патрик's army
 Save 7 battanian_volunteer to Патрик's army
+Save 1 vlandian_champion to Патрик's army
+Save 5 vlandian_knight to Патрик's army
+Save 16 vlandian_recruit to Патрик's army
+Save 9 western_mercenary to Патрик's army
 [SaveArmy] Army done !
 [SaveArmy] Gathering Family...
 [SaveArmy] /!\ NOT YET IMPLEMENTED /!\
 [SaveArmy] Family done !
-[SaveHeroData] Saving of Рустика
-Your character data have been saved inC:\Users\arykalin\Documents\Mount and Blade II Bannerlord\CharacterManager\Рустика.txt
-[SaveCharacter] Рустика properly saved !
+[SaveHeroData] Saving of Патрик
+Your character data have been saved inC:\Users\arykalin\Documents\Mount and Blade II Bannerlord\CharacterManager\Патрик.txt
+[SaveCharacter] Патрик properly saved !
