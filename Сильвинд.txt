@@ -43,7 +43,7 @@ clanCulture=Вландия
 # NOTE : It will take more than 10 days for the character to appear again.
 # NOTE : It will temporarly make the character a prisoner of your party and release him/her immediatly. No relation penalty.
 # Not imported by default, set to true to activate it
-deathStatusActivated=False
+deathStatusActivated=True
 isDead=False
 
 ######### Companion data
