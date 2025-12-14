@@ -114,15 +114,15 @@ Intelligence=6
 
 ######### Equipment data
 # NOTE : Not imported by default, set to true to activate it
-equipmentActivated=True
+equipmentActivated=False
 # NOTE : Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 Head=Шлем катафрактария со щитком
 Cape=Узорное оплечье
 Body=Пластинчатая броня с чешуйчатой юбкой
 Gloves=Пластинчатые наручи с накладками
 Leg=Сапоги с накладками
-Horse=none
-HorseHarness=none
+Horse=Стургийская лошадь
+HorseHarness=Укрепленная броня цепного плетения
 Weapon0=Железная спата
 Weapon1=none
 Weapon2=none

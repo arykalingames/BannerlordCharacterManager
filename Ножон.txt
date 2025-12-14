@@ -114,10 +114,10 @@ Intelligence=5
 
 ######### Equipment data
 # NOTE : Not imported by default, set to true to activate it
-equipmentActivated=True
+equipmentActivated=False
 # NOTE : Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 Head=Закрытый шлем поверх шнурованного койфа
-Cape=none
+Cape=Узорное оплечье
 Body=Пластинчатая броня с чешуйчатой юбкой
 Gloves=Пластинчатые наручи с накладками
 Leg=Сапоги с накладками

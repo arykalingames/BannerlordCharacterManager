@@ -114,7 +114,7 @@ Intelligence=2
 
 ######### Equipment data
 # NOTE : Not imported by default, set to true to activate it
-equipmentActivated=True
+equipmentActivated=False
 # NOTE : Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
 Head=Шлем катафрактария со щитком
 Cape=Узорное оплечье

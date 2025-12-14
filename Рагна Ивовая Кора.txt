@@ -114,14 +114,14 @@ Intelligence=6
 
 ######### Equipment data
 # NOTE : Not imported by default, set to true to activate it
-equipmentActivated=True
+equipmentActivated=False
 # NOTE : Equipment imported this way will be added to the PLAYER INVENTORY even if you import another character
-Head=Шлем с наносником поверх шнурованного койфа
+Head=Пластинчатый шлем с венцом
 Cape=Узорное оплечье
 Body=Тяжелый кольчужный хауберк
-Gloves=Кожаные перчатки
-Leg=Кольчужные сапоги всадника
-Horse=Скакун из Валанбю
+Gloves=Пластинчатые наручи с накладками
+Leg=Сапоги с накладками
+Horse=Стургийская лошадь
 HorseHarness=Грубое кавалерийское седло
 Weapon0=Железная спата
 Weapon1=none
