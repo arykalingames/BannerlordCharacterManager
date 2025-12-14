@@ -36,6 +36,7 @@ Logs of the LAST COMMAND USED (Load/Save only)
 Save 7 caravan_guard_vlandia to Патрик's army
 Save 1 western_mercenary_t5 to Патрик's army
 Save 4 western_crossbow_t4 to Патрик's army
+Save 7 battanian_volunteer to Патрик's army
 [SaveArmy] Army done !
 [SaveArmy] Gathering Family...
 [SaveArmy] /!\ NOT YET IMPLEMENTED /!\

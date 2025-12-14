@@ -103,11 +103,11 @@ focusPointsAvailable=0
 ######### Attributes data
 # NOTE : Those values are the base values of the attributes. If you have a perk which increase by 1 one of the stat, it's normal that the value here is 1 less.
 NOTE : Adapts to perks Vigorous Smith (Smithing) and Strong (Athletics)
-Vigor=8
+Vigor=9
 NOTE : Adapts to perks Controlled Smith (Smithing) and Steady (Athletics)
 Control=2
 NOTE : Adapts to perks Enduring Smith (Smithing) and Durable (Athletics)
-Endurance=8
+Endurance=9
 Cunning=2
 Social=2
 Intelligence=2
@@ -465,25 +465,25 @@ perk.Арбалет.Павеза=False
 perk.Арбалет.Ужас=False
 perk.Арбалет.Отборные стрелки=False
 perk.Арбалет.Тугая тетива=False
-perk.Кузн. дело.Мастер обработки железа=False
+perk.Кузн. дело.Мастер обработки железа=True
 perk.Кузн. дело.Любознательный плавильщик=False
 perk.Кузн. дело.Любознательный кузнец=False
 perk.Кузн. дело.Мастер-угольщик=False
-perk.Кузн. дело.Стальных дел мастер=False
+perk.Кузн. дело.Стальных дел мастер=True
 perk.Кузн. дело.Опытный кузнец=False
 perk.Кузн. дело.Мастеровитый металлург=False
-perk.Кузн. дело.Стальных дел мастер 2=False
-perk.Кузн. дело.Стальных дел мастер 3=False
-perk.Кузн. дело.Мастеровитый плавильщик=False
+perk.Кузн. дело.Стальных дел мастер 2=True
+perk.Кузн. дело.Стальных дел мастер 3=True
+perk.Кузн. дело.Мастеровитый плавильщик=True
 perk.Кузн. дело.Мастер-кузнец=False
-perk.Кузн. дело.Энергичный кузнец=False
+perk.Кузн. дело.Энергичный кузнец=True
 perk.Кузн. дело.Внимательный кузнец=False
-perk.Кузн. дело.Мастеровитый кузнец=False
-perk.Кузн. дело.Умелый кузнец=False
-perk.Кузн. дело.Выносливый кузнец=False
+perk.Кузн. дело.Мастеровитый кузнец=True
+perk.Кузн. дело.Умелый кузнец=True
+perk.Кузн. дело.Выносливый кузнец=True
 perk.Кузн. дело.Кузнец-воин=False
-perk.Кузн. дело.Заостренная кромка=False
-perk.Кузн. дело.Легендарный кузнец=False
+perk.Кузн. дело.Заостренная кромка=True
+perk.Кузн. дело.Легендарный кузнец=True
 perk.Кузн. дело.Заостренный наконечник=False
 perk.Разведка.Дневной путник=False
 perk.Разведка.Следопыт=False

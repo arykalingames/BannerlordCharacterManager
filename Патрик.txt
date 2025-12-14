@@ -31,7 +31,7 @@
 
 ######### Basic data
 name=Патрик
-gold=8965501
+gold=8960442
 age=23.09302
 # Modded culture should work. If a culture is unknown, nothing will be changed
 # Default cultures : Vlandia, Khuzait, Empire, Sturgia, Aserai, Battania
@@ -124,7 +124,7 @@ focusPointsAvailable=2
 NOTE : Adapts to perks Vigorous Smith (Smithing) and Strong (Athletics)
 Vigor=10
 NOTE : Adapts to perks Controlled Smith (Smithing) and Steady (Athletics)
-Control=9
+Control=10
 NOTE : Adapts to perks Enduring Smith (Smithing) and Durable (Athletics)
 Endurance=7
 Cunning=5
@@ -165,12 +165,12 @@ armyActivated=False
 # NOTE : Unit IDs are accessible via the console command : campaign.add_troops help
 # NOTE : Example, you want to add 15 khuzait Khan Guards to your army, you have to add at the end of the line : xxx;khuzait_khans_guard/15
 # NOTE : Moded units also work :)
-army=caravan_guard_vlandia/7;western_mercenary_t5/1;western_crossbow_t4/4
+army=caravan_guard_vlandia/7;western_mercenary_t5/1;western_crossbow_t4/4;battanian_volunteer/7
 
 ######### Skills data
 # NOTE : Hero level and raw XP
 level=16
-exp=425222
+exp=425236
 # NOTE : Activate this if you want to recalculate the global hero and level from the skills. This will always be an >> approximation <<.
 # NOTE : If you are unhappy with the calculation, you can always set the values you want, and set the boolean to false.
 autoCalculateGlobalXp=False
@@ -226,7 +226,7 @@ skill.focus.Торговля=3
 skill.xp.Торговля=0
 skill.Лидерство=134
 skill.focus.Лидерство=3
-skill.xp.Лидерство=172
+skill.xp.Лидерство=291
 skill.Инж. дело=46
 skill.focus.Инж. дело=5
 skill.xp.Инж. дело=0
@@ -503,19 +503,19 @@ perk.Арбалет.Павеза=False
 perk.Арбалет.Ужас=False
 perk.Арбалет.Отборные стрелки=False
 perk.Арбалет.Тугая тетива=False
-perk.Кузн. дело.Мастер обработки железа=False
+perk.Кузн. дело.Мастер обработки железа=True
 perk.Кузн. дело.Любознательный плавильщик=False
 perk.Кузн. дело.Любознательный кузнец=False
 perk.Кузн. дело.Мастер-угольщик=False
-perk.Кузн. дело.Стальных дел мастер=False
+perk.Кузн. дело.Стальных дел мастер=True
 perk.Кузн. дело.Опытный кузнец=False
-perk.Кузн. дело.Мастеровитый металлург=False
-perk.Кузн. дело.Стальных дел мастер 2=False
-perk.Кузн. дело.Стальных дел мастер 3=False
+perk.Кузн. дело.Мастеровитый металлург=True
+perk.Кузн. дело.Стальных дел мастер 2=True
+perk.Кузн. дело.Стальных дел мастер 3=True
 perk.Кузн. дело.Мастеровитый плавильщик=False
 perk.Кузн. дело.Мастер-кузнец=False
 perk.Кузн. дело.Энергичный кузнец=False
-perk.Кузн. дело.Внимательный кузнец=False
+perk.Кузн. дело.Внимательный кузнец=True
 perk.Кузн. дело.Мастеровитый кузнец=False
 perk.Кузн. дело.Умелый кузнец=False
 perk.Кузн. дело.Выносливый кузнец=False
@@ -586,7 +586,7 @@ perk.Медицина.Боевая закалка=False
 perk.Медицина.Руки помощи=False
 perk.Медицина.Обман смерти=False
 perk.Медицина.Министр здравоохранения=False
-perk.Инж. дело.Торсионные орудия=False
+perk.Инж. дело.Торсионные орудия=True
 perk.Инж. дело.Леса=False
 perk.Инж. дело.Строитель темниц=False
 perk.Инж. дело.Военное планирование=False
