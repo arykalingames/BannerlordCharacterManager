@@ -76,10 +76,11 @@ encyclopedia=
 ######### Clan data
 # Not imported by default, set to true to activate it
 renownActivated=True
-renown=7.683216
+renown=908.4852
 # Not imported by default, set to true to activate it
-influenceActivated=False
-influence=0
+influenceActivated=True
+influence=625.4429
+
 
 ######### Body data
 # NOTE : Facial hair can't be imported, that's NOT a bug.
