@@ -64,16 +64,7 @@ isDead=True
 isCompanion=False
 
 # Family
-# Not imported by default, set to true to activate it
-# Template : name/CLAN_OR_NOT;name/CLAN_OR_NOT;...
-# CLAN_OR_NOT above to true : will remove any tag as companion, mercernay, clan, etc... to force the character to be fully part of your family
-# CLAN_OR_NOT is set to TRUE by default
-# Note : Any hero in your family that you remove will remain in the family, just not as parent / sibling / children
-familyActivated=False
-mother=
-father=
-siblings=
-children=Патрик/true;Ножон/true;Алишка/true;Фодор/true
+
 
 # Encyclopedia text
 # Write here the text you want for the character

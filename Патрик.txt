@@ -75,7 +75,7 @@ encyclopedia=
 
 ######### Clan data
 # Not imported by default, set to true to activate it
-renownActivated=False
+renownActivated=True
 renown=7.683216
 # Not imported by default, set to true to activate it
 influenceActivated=False
