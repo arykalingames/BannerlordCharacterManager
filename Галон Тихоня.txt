@@ -65,7 +65,7 @@ renownActivated=False
 renown=908.4852
 # Not imported by default, set to true to activate it
 influenceActivated=False
-influence=625.4429
+influence=640.9429
 
 ######### Body data
 # NOTE : Facial hair can't be imported, that's NOT a bug.
@@ -426,22 +426,22 @@ perk.Торговля.У всего есть цена=False
 perk.Управление.Диета воина=False
 perk.Управление.Строевой сержант=False
 perk.Управление.Крепость духа=False
-perk.Управление.Гарантия обещания=False
-perk.Управление.Семь ветеранов=False
-perk.Управление.Долгая работа=False
+perk.Управление.Гарантия обещания=True
+perk.Управление.Семь ветеранов=True
+perk.Управление.Долгая работа=True
 perk.Управление.Эффективный борец=False
-perk.Управление.Логист=False
-perk.Управление.Передислокация=False
+perk.Управление.Логист=True
+perk.Управление.Передислокация=True
 perk.Управление.Разумные запасы=False
 perk.Управление.Дающая рука=False
-perk.Управление.Бережливый=False
+perk.Управление.Бережливый=True
 perk.Управление.Отряд помощи=False
-perk.Управление.Подрядчики=False
-perk.Управление.Лошади Ареника=False
-perk.Управление.Гурман=False
+perk.Управление.Подрядчики=True
+perk.Управление.Лошади Ареника=True
+perk.Управление.Гурман=True
 perk.Управление.Мулы Ареника=False
 perk.Управление.Принудительный труд=False
-perk.Управление.Мастер планирования=False
+perk.Управление.Мастер планирования=True
 perk.Управление.Мастер военного дела=False
 perk.Управление.Цена верности=False
 perk.Арбалет.Пробойник=False
