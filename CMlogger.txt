@@ -1,61 +1,88 @@
 Logs of the LAST COMMAND USED (Load/Save only)
 
-[SaveCharacter] == START OF SAVE ==
-[SaveCharacter] Gathering Леотольд Ищейка data...
-[SaveBasicData] Gathering basic data...
-[SaveCulture] Gathering culture...
-[SaveCulture] Culture done !
-[SaveBasicData] Basic data done !
-[SaveEncyclopedia] Gathering encyclopedia...
-[SaveEncyclopedia] saveEncyclopedia not found
-[SaveBody] Gathering Body data...
-[SaveBody] Body data done !
-[SaveClanData] Gathering Clan...
-[SaveClanData] Clan done !
-[SaveHeroTraits] Gathering Hero traits...
-[SaveHeroTraits] Hero traits done !
-[saveAttributePoints] Gathering Attribute points available...
-[saveAttributePoints] Attribute points available done !
-[saveFocusPoints] Gathering Focus points available...
-[saveFocusPoints] Focus points available done !
-[SaveHeroPerks] Gathering hero perks...
-[SaveHeroPerks] Hero perks done !
-[saveHeroAttributes] Gathering hero attributes...
-[setHeroAttributes] Calculating hero attributes...
-[setHeroAttributes] Calculation of hero attributes done !
-[saveHeroAttributes] Hero attributes done !
-[SaveSkills] Gathering hero skills...
-[SaveSkills] Hero skills done !
-[SaveEquipment] Gathering equipment...
-[SaveEquipment] Equipment done !
-[SaveCraftingParts] Gathering crafting parts...
-[SaveEquipment] Crafting parts done !
-[SaveSettlements] Gathering settlements...
-[SaveSettlements] Settlements done !
-[SaveArmy] Gathering Army...
-Save 3 caravan_guard_vlandia to Патрик's army
-Save 2 western_mercenary_t5 to Патрик's army
-Save 3 western_crossbow_t4 to Патрик's army
-Save 1 battanian_volunteer to Патрик's army
-Save 2 vlandian_champion to Патрик's army
-Save 1 vlandian_knight to Патрик's army
-Save 42 vlandian_recruit to Патрик's army
-Save 2 western_mercenary to Патрик's army
-Save 2 battanian_clanwarrior to Патрик's army
-Save 31 vlandian_levy_crossbowman to Патрик's army
-Save 3 vlandian_hardened_crossbowman to Патрик's army
-Save 8 vlandian_crossbowman to Патрик's army
-Save 2 battanian_trained_warrior to Патрик's army
-Save 1 vlandian_sharpshooter to Патрик's army
-Save 1 vlandian_footman to Патрик's army
-Save 13 vlandian_squire to Патрик's army
-Save 6 vlandian_gallant to Патрик's army
-Save 1 western_crossbow_t5 to Патрик's army
-Save 5 sword_sisters_sister_t5 to Патрик's army
-[SaveArmy] Army done !
-[SaveArmy] Gathering Family...
-[SaveArmy] /!\ NOT YET IMPLEMENTED /!\
-[SaveArmy] Family done !
-[SaveHeroData] Saving of Леотольд Ищейка
-Your character data have been saved inC:\Users\arykalin\Documents\Mount and Blade II Bannerlord\CharacterManager\Леотольд Ищейка.txt
-[SaveCharacter] Леотольд Ищейка properly saved !
+[LoadCharacter] == START OF LOAD ==
+[ReadFile] Start loading file for Патрик
+[SwitchCheatMode] Switch cheat mode to True
+[SwitchCheatMode] Switch cheat done !
+[LoadCharacter] Loading basic data...
+[loadName] Loading Name...
+[loadName] Name done !
+[loadAge] Loading Age...
+[loadAge] Loading Done...
+[loadDeath] Loading Death...
+[LoadCharacter] Basic data done !
+[loadEncyclopedia] Loading Encyclopedia...
+[loadEncyclopedia] Encyclopedia done !
+[loadBody] Loading Body...
+[loadBody] Body done !
+[loadCulture] Loading Culture...
+[loadCulture] Culture done !
+[loadClan] Loading clan...
+[loadClan] Clan done !
+[loadPartner] Loading Partner...
+Partner is not activated
+[loadPartner] Partner done !
+[LoadClanLeaderRelation] Loading Clan leaders relation...
+[loadHeroTraits] Loading Hero traits...
+[loadHeroTraits] Hero traits done !
+[loadAttributePoints] Loading available Attribute points...
+[loadAttributePoints] Attribute points done !
+[loadFocusPoints] Loading available Focus points...
+[loadFocusPoints] Focus points done !
+[loadPerks] Loading Perks...
+[loadPerks] Perks done !
+[loadAttributes] Loading Attributes...
+[loadAttributes] Attributes done !
+[loadSkills] Loading Skills...
+[loadSkills] Skllls done !
+[loadAge] Loading IsCompanion...
+[loadAge] Loading Done...
+[LoadEquipment] Loading Equipment...
+[LoadEquipment] Equipment done !
+[LoadCraftingParts] Loading Crafting parts...
+[LoadCraftingParts] Crafting parts done !
+[LoadSettlements] Loading Settlements...
+[LoadSettlements] Settlements done !
+[LoadArmy] Loading Army...
+Delete Охранник вландийского каравана from Патрик's army
+Delete Элитный наемный пикинер from Патрик's army
+Delete Наемный арбалетчик from Патрик's army
+Delete Баттанский доброволец from Патрик's army
+Delete Вландийский чемпион from Патрик's army
+Delete Вландийский рыцарь from Патрик's army
+Delete Вландийский новобранец from Патрик's army
+Delete Наемный копейщик from Патрик's army
+Delete Баттанский воин клана from Патрик's army
+Delete Вланд. арбалетчик-призывник from Патрик's army
+Delete Вландийский арбалетчик (вет.) from Патрик's army
+Delete Вландийский арбалетчик from Патрик's army
+Delete Вландийский снайпер from Патрик's army
+Delete Вландийский пеший воин from Патрик's army
+Delete Вландийский сквайр from Патрик's army
+Delete Вландийский оруженосец from Патрик's army
+Delete Элитный наемный арбалетчик from Патрик's army
+Delete Старшая сестра меча from Патрик's army
+Delete Баттанский разведчик from Патрик's army
+Added 3 caravan_guard_vlandia to Патрик's army
+Added 2 western_mercenary_t5 to Патрик's army
+Added 4 western_crossbow_t4 to Патрик's army
+Added 1 battanian_volunteer to Патрик's army
+Added 40 vlandian_champion to Патрик's army
+Added 1 vlandian_knight to Патрик's army
+Added 39 vlandian_recruit to Патрик's army
+Added 1 western_mercenary to Патрик's army
+Added 2 battanian_clanwarrior to Патрик's army
+Added 24 vlandian_levy_crossbowman to Патрик's army
+Added 14 vlandian_hardened_crossbowman to Патрик's army
+Added 6 vlandian_crossbowman to Патрик's army
+Added 1 vlandian_sharpshooter to Патрик's army
+Added 1 vlandian_footman to Патрик's army
+Added 1 vlandian_squire to Патрик's army
+Added 7 vlandian_gallant to Патрик's army
+Added 1 western_crossbow_t5 to Патрик's army
+Added 1 sword_sisters_sister_t5 to Патрик's army
+Added 1 battanian_scout to Патрик's army
+[LoadArmy] Army done !
+[SwitchCheatMode] Switch cheat mode to False
+[SwitchCheatMode] Switch cheat done !
+[LoadCharacter] == END OF LOAD ==
