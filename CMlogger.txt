@@ -33,21 +33,25 @@ Logs of the LAST COMMAND USED (Load/Save only)
 [SaveSettlements] Gathering settlements...
 [SaveSettlements] Settlements done !
 [SaveArmy] Gathering Army...
-Save 7 caravan_guard_vlandia to Патрик's army
-Save 5 western_mercenary_t5 to Патрик's army
-Save 4 western_crossbow_t4 to Патрик's army
-Save 3 battanian_volunteer to Патрик's army
-Save 5 vlandian_champion to Патрик's army
+Save 3 caravan_guard_vlandia to Патрик's army
+Save 2 western_mercenary_t5 to Патрик's army
+Save 3 western_crossbow_t4 to Патрик's army
+Save 1 battanian_volunteer to Патрик's army
+Save 2 vlandian_champion to Патрик's army
 Save 1 vlandian_knight to Патрик's army
-Save 28 vlandian_recruit to Патрик's army
+Save 42 vlandian_recruit to Патрик's army
 Save 2 western_mercenary to Патрик's army
-Save 3 battanian_clanwarrior to Патрик's army
-Save 22 vlandian_levy_crossbowman to Патрик's army
-Save 3 western_mercenary_t4 to Патрик's army
-Save 1 vlandian_light_cavalry to Патрик's army
-Save 2 vlandian_hardened_crossbowman to Патрик's army
-Save 4 vlandian_crossbowman to Патрик's army
-Save 1 battanian_trained_warrior to Патрик's army
+Save 2 battanian_clanwarrior to Патрик's army
+Save 31 vlandian_levy_crossbowman to Патрик's army
+Save 3 vlandian_hardened_crossbowman to Патрик's army
+Save 8 vlandian_crossbowman to Патрик's army
+Save 2 battanian_trained_warrior to Патрик's army
+Save 1 vlandian_sharpshooter to Патрик's army
+Save 1 vlandian_footman to Патрик's army
+Save 13 vlandian_squire to Патрик's army
+Save 6 vlandian_gallant to Патрик's army
+Save 1 western_crossbow_t5 to Патрик's army
+Save 5 sword_sisters_sister_t5 to Патрик's army
 [SaveArmy] Army done !
 [SaveArmy] Gathering Family...
 [SaveArmy] /!\ NOT YET IMPLEMENTED /!\
