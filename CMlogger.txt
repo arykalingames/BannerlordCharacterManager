@@ -37,8 +37,26 @@ Logs of the LAST COMMAND USED (Load/Save only)
 [SaveSettlements] Gathering settlements...
 [SaveSettlements] Settlements done !
 [SaveArmy] Gathering Army...
-Save 90 vlandian_champion to Патрик's army
-Save 80 vlandian_sharpshooter to Патрик's army
+Save 70 vlandian_champion to Патрик's army
+Save 74 vlandian_sharpshooter to Патрик's army
+Save 3 vlandian_levy_crossbowman to Патрик's army
+Save 1 vlandian_gallant to Патрик's army
+Save 1 battanian_fian_champion to Патрик's army
+Save 2 vlandian_cavalry to Патрик's army
+Save 1 vlandian_voulgier to Патрик's army
+Save 1 vlandian_crossbowman to Патрик's army
+Save 1 vlandian_light_cavalry to Патрик's army
+Save 1 vlandian_billman to Патрик's army
+Save 1 vlandian_spearman to Патрик's army
+Save 2 vlandian_footman to Патрик's army
+Save 5 armed_trader_vlandia to Патрик's army
+Save 1 vlandian_recruit to Патрик's army
+Save 1 looter to Патрик's army
+Save 1 battanian_scout to Патрик's army
+Save 1 battanian_volunteer to Патрик's army
+Save 1 battanian_militia_veteran_archer to Патрик's army
+Save 1 battanian_horseman to Патрик's army
+Save 2 caravan_guard_vlandia to Патрик's army
 [SaveArmy] Army done !
 [SaveArmy] Gathering Family...
 [SaveArmy] /!\ NOT YET IMPLEMENTED /!\
